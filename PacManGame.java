@@ -59,20 +59,20 @@ public class PacManGame extends JPanel implements KeyListener {
         } else if (key == KeyEvent.VK_RIGHT && map[pacmanY][pacmanX + 1] != 1) {
             pacmanX++;
         }
-        repaint(); // Ekranı yenile
+        repaint(); 
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
-        // Kullanılmıyor
+       
     }
 
     @Override
     public void keyTyped(KeyEvent e) {
-        // Kullanılmıyor
+        
     }
 
     public static void main(String[] args) {
-        new PacManGame(); // Oyunu başlat
+        new PacManGame(); 
     }
 }
